@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#0B0B0D">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUEVISION"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:letterSpacing="0.14"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIM LINE SYSTEM"
+        android:textColor="#8A8A93"
+        android:textSize="11sp"
+        android:letterSpacing="0.24"
+        android:layout_marginBottom="34dp"/>
+
+    <EditText
+        android:id="@+id/keyInput"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="CV-0000-00000-00000"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#8A8A93"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:inputType="textCapCharacters"
+        android:background="#15151A"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textColor="#8A8A93"
+        android:textSize="13sp"/>
+
+    <Button
+        android:id="@+id/activateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="22dp"
+        android:text="ACTIVAR"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E02A2A"/>
+
+    <Button
+        android:id="@+id/launchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:text="INICIAR"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#15151A"/>
+</LinearLayout>
